@@ -51,8 +51,8 @@ class Lottery():
                 break
         
             elif Gauss!=number:
-                print(f'try again {Attemt} attemt left')
                 Attemt-=1
+                print(f'try again {Attemt} attemt left')
                 continue
             
         print('know game is over')
